@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <header class="header">
+        <a href="#home" class="logo">EL MEHDI
+        <span>TALEB</span></a>
+    
+
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#education">Education</a>
+        <a href="#services">Services</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+</header>
+<section class="home" id="home">
+    <div class="home-contnet">
+        <h1>Hi , it's <span>EL MEHDI</span></h1>
+        <h3 class="text-animation">I'm a <span></span></h3>
+        <p>passion for crafting digital experiences,
+         I specialize in developing sleek, responsive websites
+         and web applications that are both functional and visually
+         engaging. I thrive on solving complex problems through clean 
+         and efficient code, combining my technical expertise with
+         a creative approach to design. My goal is to continually grow 
+         and innovate, staying at the forefront of modern web development
+         practices.</p>
+
+        <div class="social-icons">
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+            <a href="#"><i class='bx bxl-github' ></i></a>
+            <a href="#"><i class='bx bxl-facebook' ></i></a>
+            <a href="#"><i class='bx bxl-instagram' ></i></a>
+        </div>
+
+        <div class="btn-group">
+            <a href="#contact" class="btn">Contact</a>
+        </div>
+    </div>
+
+        <div class="home-img">
+            <img src="me.jpg" alt="">
+        </div>
+    
+</section>
+   
+<section class="education" id="education">
+
+    <h2 class="heading">Education</h2>
+
+    <div class="timeline-items">
+
+        <div class="timeline-item">
+            <div class="timeline dot"></div>
+                <div class="timeline-date">2023</div>
+                <div class="timeline-content">
+                    <h3>DTS</h3>
+                    <p>With a Bac+2 in Full Stack Web Development from ISTA, I have honed my skills in creating dynamic and responsive web applications. My education provided me with a comprehensive understanding of both client-side and server-side technologies, allowing me to build seamless user experiences. I am dedicated to staying current with industry trends and continually improving my craft, aiming to contribute effectively to innovative projects in the tech field.</p>
+               
+                </div>
+            
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline dot"></div>
+                <div class="timeline-date">2024</div>
+                <div class="timeline-content">
+                    <h3>License Professionnelle</h3>
+                    <p>With a Bac+3 in Licence (Ingénierie des Systèmes Informatiques) from SupMTI Rabat, I have developed a robust foundation in both web development and systems engineering. This advanced education has equipped me with the skills to implement and manage complex information systems while ensuring optimal performance and security.</p>
+                </div>
+            
+        </div>
+    </div>
+
+
+</section>
+
+<section class="services" id="services">
+    <h2 class="heading">Services</h2>
+
+    <div class="services-container">
+        <div class="service-box">
+            <div class="service-info">
+                <h4>Web Develeper</h4>
+                <p>Creating responsive, dynamic websites and
+                     applications tailored to your needs.
+                     I specialize in full-stack development
+                      to ensure a seamless user experience from 
+                      front to back.
+                </p>
+            </div>
+        </div>
+
+        <div class="service-box">
+            <div class="service-info">
+                <h4>Database Management</h4>
+                <p>Designing and managing databases with MySQL,
+                     MongoDB, and PostgreSQL, ensuring data integrity,
+                      security, and performance optimization.
+                </p>
+            </div>
+        </div>
+
+        <div class="service-box">
+            <div class="service-info">
+                <h4>Technical Consulting</h4>
+                <p>Providing expert guidance on web technologies,
+                    helping businesses streamline operations 
+                    and implement innovative solutions for growth.</p>
+            </div>
+        </div>
+
+        <div class="service-box">
+            <div class="service-info">
+                <h4>Front-End Expertise</h4>
+                <p>Crafting visually appealing and intuitive user interfaces 
+                    using the latest technologies like HTML, CSS,
+                     JavaScript, and modern frameworks such as React and Vue.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="testimonials" id="testimonials">
+    <h2 class="heading">Testimonials</h2>
+    <div class="testimonials-container">
+        <div class="testimonial-box">
+            <p>"El Mehdi is a fantastic web developer. His ability to solve complex issues with creative solutions is exceptional. Highly recommend!"</p>
+            <h4>- Jawad</h4>
+        </div>
+        <div class="testimonial-box">
+            <p>"His attention to detail and commitment to delivering the best results are commendable. Truly a pleasure to work with!"</p>
+            <h4>- Taleb</h4>
+        </div>
+    </div>
+</section>
+
+
+<section class="contact" id="contact">
+    <h2 class="heading">Contact</h2>
+    <div id="notification" style="display: none;"></div> 
+    <div class="contact-container">
+        <form action="submit_contact.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        
+    </div>
+</section>
+
+
+
+
+<footer>
+    <div class="footer-content">
+        <h3>Get in touch</h3>
+        <p>Email: elmehdii.taleb@gmail.com</p>
+        <div class="social-icons">
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+            <a href="#"><i class='bx bxl-github' ></i></a>
+        </div>
+    </div>
+</footer>
+
+<script>
+    // Check if there's a success query parameter in the URL
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.has('success')) {
+        const notification = document.getElementById('notification');
+        notification.style.display = 'block'; // Show notification
+        notification.innerHTML = 'Message has been sent.'; // Set the success message
+        notification.style.color = 'white'; // Set the color to green
+        notification.style.fontSize = '20px'; // Set the color to green
+        notification.style.textAlign = 'center'; // Set the color to green
+    }
+</script>
+   
+    <script src="script.js"></script>
+</body>
+</html>
